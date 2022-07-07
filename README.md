@@ -1,6 +1,6 @@
 # Stabilization module
-##### The purpose of this work is to develop and implement an algorithm for compensating the UAV camera's own motion in the task of tracking an object in a video stream
-***
+### The purpose of this work is to develop and implement an algorithm for compensating the UAV camera's own motion in the task of tracking an object in a video stream
+
 At the moment, the repository contains two wrapper classes for the OpenCV API:
 - CameraMotionEstimator class that implements the estimation of camera movement by finding the homography matrix between adjacent frames.
 - KalmanFilter class that predicts the position of an object in the next frame.
